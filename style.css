@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.container {
+  width: 100vw;
+  padding: 25vh 0;
+  display: flex;
+  justify-content: center;
+}
+
+#D {
+  color: orange;
+}
+
+#R {
+  color: rgb(0, 89, 255);
+}
+
+#O {
+  color: palegreen;
+}
+
+#S {
+  color: plum;
+}
+
+#F {
+  color: royalblue;
+}
+
+#E {
+  color: red;
+}
+
+#T {
+  color: seagreen;
+}
+
+#slogan {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 24px;
+  color: skyblue;
+  text-shadow: 2px 11px 16px rgb(255, 153, 0);
+  animation: animate 22s ease-in-out infinite;
+}
+h3 {
+  color: rgb(0, 255, 0);
+}
+@keyframes animate {
+  0% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(22deg);
+    transform: rotateY(12deg);
+  }
+  50% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+  75% {
+    transform: rotateX(-22deg);
+    transform: rotateY(-12deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+}
+
+h2 {
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 30vh;
+}
+div.letters {
+  text-shadow: 24px 24px 24px greenyellow;
+  transition: transform 1s;
+}
+
+div.letters:hover {
+  transform: scale(2, 2);
+}
+
+#matrix {
+  position: relative;
+  top: -400px;
+  z-index: -3;
+}
+
+.meaning {
+  margin: auto;
+  width: 40vw;
+  margin-bottom: 45px;
+  font-size: 3rem;
+  padding: 120px;
+  background: cornsilk;
+  color: rgba(50, 136, 248, 0.8);
+}
